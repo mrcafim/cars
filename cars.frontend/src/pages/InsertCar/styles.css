@@ -1,0 +1,12 @@
+.insert-car-container div section {
+    padding-bottom: 60px;
+}
+
+.insert-car-container div section h1{
+    float: left;
+}
+
+.insert-car-container div section a{
+    float: right;
+    align-items: center;
+}
