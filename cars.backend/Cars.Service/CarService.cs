@@ -63,11 +63,11 @@ namespace Cars.Service
 
         public async Task<bool> Delete(Guid id)
         {
-            var deleteProduct = await _repository.Get(id);
+            var deleteCar = await _repository.Get(id);
 
-            if (deleteProduct == null) return false;
+            if (deleteCar == null) return false;
 
-            await _repository.Delete(deleteProduct);
+            await _repository.Delete(deleteCar);
 
             return true;
         }
